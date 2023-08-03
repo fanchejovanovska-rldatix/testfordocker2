@@ -1,7 +1,7 @@
 pipeline {
 	agent none
 	environment {
-		NPM_AUTH = credentials('npm-nexus')
+		NPM_AUTH = credentials('npm')
 		NUGET_AUTH = credentials('nuget-nexus')
 	}
 	stages {
