@@ -20,7 +20,7 @@ pipeline {
 						label "nuget"
 					}
 					steps {
-						sh 'nuget install'
+						sh 'mono /usr/local/bin/nuget install'
 					}
 				}
 			}
